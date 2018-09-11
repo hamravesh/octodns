@@ -164,6 +164,7 @@ The above command pulled the existing data out of Route53 and placed the results
 | [Route53](/octodns/provider/route53.py) | boto3 | A, AAAA, CAA, CNAME, MX, NAPTR, NS, PTR, SPF, SRV, TXT | Yes | |
 | [TinyDNSSource](/octodns/source/tinydns.py) | | A, CNAME, MX, NS, PTR | No | read-only |
 | [YamlProvider](/octodns/provider/yaml.py) | | All | Yes | config |
+| [JsonnetProvider](/octodns/provider/jsonnet.py) | jsonnet==0.10.0 | All | Yes | config |
 
 #### Notes
 
